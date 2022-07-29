@@ -23,6 +23,11 @@
   text-decoration: none;
   color: white;
   font-size: 20px;
+  font-weight: bold;
+}
+
+.botao__cursos:hover {
+  color: #114265;
 }
 
 @media (min-width: 1024px) {

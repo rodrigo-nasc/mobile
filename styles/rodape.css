@@ -48,6 +48,11 @@
     font-size: 18px;
     color: gray;
     padding: 13px 0;
+    font-weight: 600;
+  }
+
+  .ancora__rodape:hover {
+    color: orangered;
   }
 }
 

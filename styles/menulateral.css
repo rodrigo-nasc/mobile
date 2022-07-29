@@ -39,6 +39,11 @@
 .botao__ancora {
   text-decoration: none;
   color: black;
+  font-size: 20px;
+}
+
+.botao__ancora:hover {
+  color: orangered;
 }
 
 .icone {
@@ -55,7 +60,7 @@
 .sub__lista {
   position: absolute;
   background-color: white;
-  width: 100px;
+  width: 150px;
   display: none;
 }
 
@@ -65,6 +70,7 @@
 
 .titulo__icone-cabecalho {
   display: none;
+  font-size: 20px;
 }
 
 .titulo__estelar {
@@ -86,6 +92,7 @@
 
   .titulo__estelar {
     display: block;
+    font-size: 20px;
   }
 
   .menu__central {
