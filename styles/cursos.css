@@ -1,0 +1,37 @@
+.cursos__geral {
+  background-color: #114265;
+}
+
+.cursos {
+  background-color: #114265;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.titulo__cursos {
+  width: 29%;
+  margin: 0.5rem 0.1rem;
+  background-color: orange;
+  border: 1px solid white;
+  padding: 20px 0;
+}
+
+.botao__cursos {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+@media (min-width: 1024px) {
+  .cursos {
+    padding: 15px 0;
+    flex-grow: 1;
+  }
+
+  .titulo__cursos {
+    width: 20%;
+  }
+}

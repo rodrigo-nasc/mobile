@@ -1,0 +1,125 @@
+.icon {
+  width: 32px;
+  padding: 10px;
+}
+
+.cardapio {
+  display: none;
+}
+
+.cardapio:checked ~ .sub__lista {
+  display: block;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  align-items: center;
+}
+
+.estelar {
+  width: 45px;
+}
+
+.item {
+  padding: 10px 10px;
+}
+
+.favoritos {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.sub__cabecalho {
+  display: flex;
+}
+
+.botao__ancora {
+  text-decoration: none;
+  color: black;
+}
+
+.icone {
+  display: flex;
+  align-items: center;
+}
+
+.sub__cabecalho {
+  position: relative;
+  top: 0%;
+  align-items: center;
+}
+
+.sub__lista {
+  position: absolute;
+  background-color: white;
+  width: 100px;
+  display: none;
+}
+
+.menu__central {
+  display: none;
+}
+
+.titulo__icone-cabecalho {
+  display: none;
+}
+
+.titulo__estelar {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .menu__lateral {
+    display: none;
+  }
+
+  .lista__meio {
+    display: flex;
+  }
+
+  .favorito {
+    display: none;
+  }
+
+  .titulo__estelar {
+    display: block;
+  }
+
+  .menu__central {
+    display: block;
+  }
+
+  .icone {
+    margin-left: 1rem;
+  }
+
+  .item1 {
+    margin: 1rem;
+  }
+
+  .titulo__icone-cabecalho {
+    display: none;
+  }
+}
+
+@media (min-width: 1700px) {
+  .titulo__icone-cabecalho {
+    display: block;
+  }
+
+  .icone {
+    margin-left: 3rem;
+  }
+
+  .menu__central {
+    flex-grow: 1;
+    margin-left: 10rem;
+  }
+
+  .item1 {
+    margin: 0 1.5rem;
+  }
+}
