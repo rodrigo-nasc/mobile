@@ -13,10 +13,10 @@
 
 .titulo__cursos {
   width: 29%;
-  margin: 0.5rem 0.1rem;
+  margin: 0.3rem 0.3rem;
   background-color: orange;
   border: 1px solid white;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
 .botao__cursos {
@@ -24,6 +24,7 @@
   color: white;
   font-size: 20px;
   font-weight: bold;
+  padding: 20px 0;
 }
 
 .botao__cursos:hover {
