@@ -1,0 +1,74 @@
+.novidades {
+  padding: 15px;
+  color: #114265;
+  background-color: white;
+}
+
+.titulo__novidades {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.info {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.botao__pesquisa {
+  padding: 15px;
+  border-radius: 25px;
+  width: 100%;
+  border: 2px solid #114265;
+  color: #114265;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.pesquisa {
+  text-align: center;
+}
+
+.botao__pesquisa::placeholder {
+  text-align: center;
+  background: url(/img/o-email.png) no-repeat;
+  background-position: 1.5rem;
+  color: #114265;
+  font-weight: bold;
+  padding: 5px;
+}
+
+hr {
+  margin: 0%;
+}
+
+@media (min-width: 1024px) {
+  .novidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .novidades_info {
+    width: 60%;
+    margin-right: 2rem;
+    padding: 0 20px;
+  }
+
+  .pesquisa {
+    width: 40%;
+    padding: 0 20px;
+    text-align: end;
+  }
+
+  .botao__pesquisa {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .novidades {
+    justify-content: space-around;
+  }
+}

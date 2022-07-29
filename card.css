@@ -1,0 +1,83 @@
+.cards__principal {
+  margin: 0.5rem 0.2rem;
+  text-align: center;
+}
+
+.card {
+  margin: 1.5rem 0;
+  background-color: white;
+  padding: 5px;
+}
+
+.imagem__card {
+  width: 100%;
+}
+
+.titulo__principal {
+  font-size: 25px;
+  font-weight: 900;
+  background-color: white;
+  padding: 15px 0;
+  text-align: center;
+  color: orangered;
+  margin: 1rem 0;
+}
+
+.titulo__card {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 45%;
+    margin: 0.5rem 0.5rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .card:nth-child(2n + 1) {
+    margin-left: 0%;
+  }
+
+  .card:nth-child(2n) {
+    margin-right: 0%;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 14%;
+    margin: 0 0.5rem;
+    flex-grow: 1;
+  }
+
+  .card:nth-child(2n) {
+    margin-right: 0.5rem;
+  }
+
+  .card:nth-child(3n) {
+    margin-left: 0.5rem;
+  }
+
+  .card:nth-child(5n) {
+    margin-left: 0.5rem;
+  }
+
+  .card:nth-child(6n) {
+    margin-right: 0%;
+  }
+}
