@@ -31,7 +31,7 @@
   color: #114265;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .cursos {
     padding: 15px 0;
     flex-grow: 1;
