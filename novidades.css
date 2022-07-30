@@ -43,7 +43,7 @@ hr {
   margin: 0%;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .novidades {
     display: flex;
     justify-content: center;
@@ -67,7 +67,7 @@ hr {
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .novidades {
     justify-content: space-around;
   }
